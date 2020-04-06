@@ -1,0 +1,85 @@
+.header{
+  width:100%;
+  background-image: url("../assets/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  .header-iphone{
+    img{
+      width:100%;
+    }
+  }
+  .header-overlay {
+    width:100%;
+    background-color: rgba(31,31,31, 0.7);
+    .header-container{
+      padding-top: 165px;
+  padding-bottom: 165px;
+    }
+  }
+  .logo{
+    padding-bottom:50px;
+  }
+
+  .header-text{
+    h1{
+    color: #fff;
+    font-size:35px;
+    font-weight:300;
+    line-height:45px;
+    padding-top:30px;
+    text-transform: uppercase;
+    }
+    p{
+    color: #fff;
+    font-size:17px;
+    font-weight:300;
+    line-height:28px;
+    }
+  }
+  .header-btns{
+    margin-top:90px;
+    margin-bottom:50px;
+    .btn-download,.btn-download:focus,.btn-download:active,.btn-download:visited{
+      background: transparent;
+      border-color: #129CF3;
+      padding-top:10px;
+      padding-bottom:10px;
+      padding-left:30px;
+      padding-right:30px;
+      font-size:19px;
+      text-transform:uppercase;
+      border-radius: 3px;
+      transition: all 1s;
+      -webkit-transition:all 1s;
+      -moz-transition:all 1s;
+      -o-transition: all 1s;
+      &:hover{
+        background-color: #129CF3;
+      }
+    }
+    .btn-tour,.btn-tour:focus,.btn-tour:active,.btn-tour:visited{
+      background: transparent;
+      color: #A9ADB0;
+      margin-left:20px;
+      font-size:20px;
+      font-weight:300;
+      text-transform:uppercase;
+      transition: all 1s;
+      -webkit-transition:all 1s;
+      -moz-transition:all 1s;
+      -o-transition: all 1s;
+      &:hover{
+        color: #fff;
+      }
+      i{
+        margin-left:10px;
+        color: #129CF3;
+      }
+    }
+  }
+}

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script type="text/javascript">
+      (function () {
+        const css = document.createElement("link");
+        css.href = "https://use.fontawesome.com/releases/v5.1.0/css/all.css";
+        css.rel = "stylesheet";
+        css.type = "text/css";
+        document.getElementsByTagName("head")[0].appendChild(css);
+      })();
+    </script>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>LOSO - Responsive Web Design</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+
+    <header class="header" id="header">
+      <div class="header-overlay">
+        <div class="container header-container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="logo text-center">
+                <img src="assets/logo.png" alt="logo" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="header-text">
+                <h1>
+                  A clean and modern looking<br />
+                  responsive website
+                </h1>
+                <p>Built with great love!</p>
+              </div>
+              <div class="header-btns">
+                <a class="btn btn-download" href="#">Download</a>
+                <a class="btn btn-tour"
+                  >Take A Tour<i class="fa fa-angle-down"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-3 offset-md-1">
+              <div class="header-iphone">
+                <img src="assets/iphone-header.png" alt="phone" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="section-title">
+              <h2>About Us</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent rhoncus ultricies nibh, vitae sodales purus. Aenean
+                volutpat ullamcorper cursus. Duis tristique sit amet augue ac
+                vestibulum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="choose-us-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about-iphone">
+                <img src="assets/about-iphone.png" alt="iphone" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="choose-us-title">
+                <h2>Why Choose Us?</h2>
+                <p>
+                  Cum sociis natoque penatibus et magnis dis parturient montes,
+                  nascetur ridiculus mus. Quisque lacus dui, interdum sit amet
+                  varius.
+                </p>
+              </div>
+              <div class="choose-us-des">
+                <div class="choose-us-item">
+                  <div><i class="fa fa-bolt"></i></div>
+                  <h3>QUISQUE LACUS DUI</h3>
+                  <p>
+                    Lipsum Cum sociis natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Quisque lacus dui, interdum
+                    sit amet varius a, cursus sit amet sapien. Donec eu placerat
+                    nisi.
+                  </p>
+                </div>
+
+                <div class="choose-us-item">
+                  <div><i class="fa fa-bullhorn"></i></div>
+                  <h3>DONEC EU PLACERAT NISI</h3>
+                  <p>
+                    Diso Lipsum Cum sociis natoque penatibus et magnis dis
+                    parturient montes, nascetur ridiculus mus. Quisque lacus
+                    dui, interdum sit amet varius a, cursus sit amet sapien.
+                    Donec eu placerat nisi.
+                  </p>
+                </div>
+
+                <div class="choose-us-item">
+                  <div><i class="fa fa-flag-o"></i></div>
+                  <h3>PERSPICIATIS UNDE OMNIS</h3>
+                  <p>
+                    Sed ut perspiciatis Cupidatat non proident, sunt in culpa
+                    qui officia deserunt mollit anim id est laborum.unde omnis
+                    iste natus error sit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial">
+      <div class="testimonial-overlay">
+        <div class="row">
+          <div class="col-md-12">
+            <div
+              id="carousel-testimonial"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carousel-testimonial"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#carousel-testimonial" data-slide-to="1"></li>
+                <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                  <img
+                    src="assets/client-01.jpg"
+                    class="center-block"
+                    alt="testimnial"
+                  />
+                  <div class="testimonial-caption">
+                    <h2>Daniel</h2>
+                    <h4><span>Sr. Software Engineer, </span>Blue Gyms</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Minima consequatur beatae non pariatur voluptas quia
+                      aliquid eligendi sint nihil earum atque consectetur nisi
+                      optio tempora, necessitatibus quod sequi quaerat vitae.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item text-center">
+                  <img
+                    src="assets/client-02.jpg"
+                    class="center-block"
+                    alt="testimnial"
+                  />
+                  <div class="testimonial-caption">
+                    <h2>Rauls Pole</h2>
+                    <h4><span>Marketing Manager, </span>Rudenco</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Minima consequatur beatae non pariatur voluptas quia
+                      aliquid eligendi sint nihil earum atque consectetur nisi
+                      optio tempora, necessitatibus quod sequi quaerat vitae.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item text-center">
+                  <img
+                    src="assets/client-03.jpg"
+                    class="center-block"
+                    alt="testimnial"
+                  />
+                  <div class="testimonial-caption">
+                    <h2>Jimm So</h2>
+                    <h4><span>Assistant Manager, </span>UPC</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Minima consequatur beatae non pariatur voluptas quia
+                      aliquid eligendi sint nihil earum atque consectetur nisi
+                      optio tempora, necessitatibus quod sequi quaerat vitae.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="section-title">
+              <h2>Features</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features-inner-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="left-feature-item">
+                <div class="left-feature-item-icon">
+                  <i class="fa fa-desktop"></i>
+                </div>
+                <h3>RETINA READY</h3>
+                <p>
+                  Lorem ipsum dolor, consectetur sed do adipisicing elit, sed do
+                  eiusmod tempor incididunt
+                </p>
+              </div>
+              <div class="left-feature-item">
+                <div class="left-feature-item-icon">
+                  <i class="fa fa-mobile"></i>
+                </div>
+                <h3>MOBILE READY</h3>
+                <p>
+                  Lorem ipsum dolor, consectetur sed do adipisicing elit, sed do
+                  eiusmod tempor incididunt
+                </p>
+              </div>
+              <div class="left-feature-item">
+                <div class="left-feature-item-icon">
+                  <i class="fa fa-eye"></i>
+                </div>
+                <h3>EASY LAYOUT</h3>
+                <p>
+                  Lorem ipsum dolor, consectetur sed do adipisicing elit, sed do
+                  eiusmod tempor incididunt
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature-iphone">
+                <img src="assets/iphone-02.png" alt="feature iphone" />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="right-feature-item">
+                <div class="right-feature-item-icon">
+                  <i class="fa fa-certificate"></i>
+                </div>
+                <h3>CERTIFIED SOLUTION</h3>
+                <p>
+                  Lorem ipsum dolor, consectetur sed do adipisicing elit, sed do
+                  eiusmod tempor incididunt
+                </p>
+              </div>
+              <div class="right-feature-item">
+                <div class="right-feature-item-icon">
+                  <i class="fa fa-wifi"></i>
+                </div>
+                <h3>CONSTANT FEED</h3>
+                <p>
+                  Lorem ipsum dolor, consectetur sed do adipisicing elit, sed do
+                  eiusmod tempor incididunt
+                </p>
+              </div>
+              <div class="right-feature-item">
+                <div class="right-feature-item-icon">
+                  <i class="fa fa-database"></i>
+                </div>
+                <h3>SECURE DATA</h3>
+                <p>
+                  Lorem ipsum dolor, consectetur sed do adipisicing elit, sed do
+                  eiusmod tempor incididunt
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="purchase-now">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et olore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <a class="btn btn-primary btn-purchase-now" href="#"
+              >Purchase Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screens">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="section-title">
+              <h2>Screens</h2>
+              <p>
+                Mauris a mauris feugiat, luctus mauris a, sollicitudin ex.
+                Pellentesque et tortor in risus elementum aliquet. Etiam
+                facilisis justo urna, id feugiat magna scelerisque non.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="screen-slider">
+        <div class="carousel">
+          <div class="item">
+            <img
+              src="assets/screen-01.png"
+              width="60"
+              height="60"
+              alt="screen"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/screen-02.png"
+              width="60"
+              height="60"
+              alt="screen"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/screen-03.png"
+              width="60"
+              height="60"
+              alt="screen"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/screen-04.png"
+              width="60"
+              height="60"
+              alt="screen"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="counter">
+      <div class="counter-overlay">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <div class="counter-item">
+                <div class="counter-icon">
+                  <i class="fa fa-cloud-download"></i>
+                </div>
+                <h2><span class="counter-num">1588</span><span>+</span></h2>
+                <p>Downloads</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="counter-item">
+                <div class="counter-icon"><i class="fa fa-gift"></i></div>
+                <h2><span class="counter-num">3500</span><span>+</span></h2>
+                <p>Awards</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="counter-item">
+                <div class="counter-icon"><i class="fa fa-heart-o"></i></div>
+                <h2><span class="counter-num">190</span><span>+</span></h2>
+                <p>Downloads</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="counter-item">
+                <div class="counter-icon"><i class="fa fa-check"></i></div>
+                <h2><span class="counter-num">1066</span><span>+</span></h2>
+                <p>Recomended</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-now">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="section-title">
+              <h2>Download Now</h2>
+              <p>
+                Vestibulum congue eros ac neque dignissim, vel imperdiet neque
+                consectetur. Maecenas condimentum cursus maximus. Praesent eu
+                diam efficitur,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <img
+              src="assets/download-screen.png"
+              class="img-responsive"
+              alt="phones"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="available-on">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="available-title">
+              <h2>Available On</h2>
+              <p>
+                Vestibulum congue eros ac neque dignissim, vel imperdiet neque
+                consectetur. Maecenas condimentum cursus maximus. Praesent eu
+                diam efficitur,
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <a href="#" class="col-md-4 no-padding">
+                <div>
+                  <div class="available-on-item">
+                    <i class="fa fa-apple"></i>
+                    <div class="available-on-inner">
+                      <h2>iOS</h2>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="col-md-4 no-padding">
+                <div>
+                  <div class="available-on-item p-0">
+                    <i class="fa fa-android"></i>
+                    <div class="available-on-inner">
+                      <h2>ANDROID</h2>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="col-md-4 no-padding">
+                <div>
+                  <div class="available-on-item p-0">
+                    <i class="fa fa-windows"></i>
+                    <div class="available-on-inner">
+                      <h2>WINDOWS</h2>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="section-title">
+              <h2>Contact Us</h2>
+              <p>
+                Nulla blandit sem sed neque pretium mattis. Etiam consectetur
+                eleifend felis porttitor porttitor. Phasellus sit amet augue
+                fringilla, fringilla lectus at, tincidunt ante
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-us-form">
+        <div class="container">
+          <form role="form">
+            <div class="row">
+              <div class="col-md-4">
+                <input
+                  class="form-control"
+                  type="text"
+                  id="name"
+                  placeholder="Name"
+                />
+                <input
+                  class="form-control"
+                  type="email"
+                  id="email"
+                  placeholder="Email"
+                />
+                <input
+                  class="form-control"
+                  type="text"
+                  id="subject"
+                  placeholder="Subject"
+                />
+              </div>
+              <div class="col-md-8">
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="25"
+                  cols="10"
+                  placeholder="Message text..."
+                >
+                </textarea>
+                <button
+                  type="button"
+                  class="btn btn-default submit-btn form_submit"
+                >
+                  SEND
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="social-icons">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-youtube-play"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" id="copyright">
+            <p>Copyright &copy; 2020 <a href="#header">- LoSo</a></p>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end">
+            <div class="scroll-top">
+              <a href="#"><i class="fa fa-angle-up"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
