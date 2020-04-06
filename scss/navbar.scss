@@ -1,0 +1,35 @@
+nav.navbar {
+  margin-top: 0px;
+  padding: 0;
+  opacity: 1;
+  background-color: rgba(59, 59, 59, 0.7);
+  border-color: rgb(68, 68, 68);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  ul {
+    li {
+      padding: 15px;
+      &:hover {
+        a {
+          color: #129cf3 !important;
+        }
+      }
+      a {
+        color: #b5b5b5 !important;
+        text-transform: uppercase;
+        font-size: 14px;
+        transition: all 1s;
+      -webkit-transition: all 1s;
+      -moz-transition: all 1s;
+      -o-transition: all 1s;
+      }
+    }
+    li.active {
+      a {
+        color: #129cf3 !important;
+      }
+    }
+  }
+}
