@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "animate.css": "^3.7.2",
     "gulp-sourcemaps": "^2.6.5"
   },
   "devDependencies": {

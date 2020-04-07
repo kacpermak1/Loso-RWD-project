@@ -38,5 +38,9 @@ $(function(){
         delay: 10,
         time: 2000
     });
-
+   
 })
+
+//WOW INITIALIZE
+
+$(document).ready(function(){new WOW().init()}) 

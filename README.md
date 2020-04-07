@@ -4,7 +4,8 @@
 
 ## Used
 
--HTML5
--SCSS
--JQUERY
--BOOTSTRAP 
+- HTML5
+- CSS
+- SASS
+- JQUERY
+- BOOTSTRAP 
