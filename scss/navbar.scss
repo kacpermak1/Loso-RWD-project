@@ -2,8 +2,8 @@ nav.navbar {
   margin-top: 0px;
   padding: 0;
   opacity: 1;
-  background-color: rgba(59, 59, 59, 0.7);
-  border-color: rgb(68, 68, 68);
+  background-color: transparent;
+  border-bottom: 1px solid rgb(68, 68, 68);
   transition: all 1s;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -20,10 +20,11 @@ nav.navbar {
         color: #b5b5b5 !important;
         text-transform: uppercase;
         font-size: 14px;
+        padding: 0;
         transition: all 1s;
-      -webkit-transition: all 1s;
-      -moz-transition: all 1s;
-      -o-transition: all 1s;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -o-transition: all 1s;
       }
     }
     li.active {
